@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    background-color:white;
+}
+.menu ul{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+}
+.menu ul li{
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+    color: #888; 
+}
+img#principalBanner{
+    display: block;
+    margin: auto;
+}
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    display:block;
+    padding: 0;
+    border:0;
+    margin: 0;
+}
+.salmonBanner{
+width: 100%;
+}
+.textoEncima{
+    color: #ffffff;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 0.11em;
+    position: absolute;
+    top: 51%;
+    left: 38%;
+}
+.centrado{
+    color: rgba(255, 255, 255, 0.75);
+    font-family: 'Noto Sans', sans-serif;
+    font-size: large;
+    text-align: center;
+    letter-spacing: 0.11em;
+    margin-bottom: 1.75em;
+    position: absolute;
+    top: 73%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+}
+.subtitles{
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+}
+.calentadores{
+    position: relative;
+    top: 60px;
+    left: 60px;
+}
+#eventos{
+    position: relative;
+    color: #616161;
+    font-size: 1.25em;
+    top: 90px;
+    left: 900px;
+    font-weight: 700;
+    letter-spacing: 0.11em;
+}
+#textoEventos{
+    font-family: 'Noto Sans', sans-serif;
+    position: relative;
+    color: #888;
+    font-size: 100;
+    width: 500px;
+    top: -300px;
+    left: 900px;
+}
+#imagenes{
+    position: relative;
+    text-align: center;
+    color: #616161;
+    font-size: 1.25em;
+    font-weight: 700;
+    letter-spacing: 0.11em;
+    top: 50px;
+}
+#textoImagenes{
+    font-family: 'Noto Sans', sans-serif;
+    position: relative;
+    color: #888;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50px;
+}
+.pic-ctn {
+    width: 100vw;
+    height: 200px;
+  }
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  .pic-ctn {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 15vh;
+  }
+  
+  .pic-ctn > img {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 300px);
+    opacity: 0;
+    animation: display 10s infinite;
+  }
+  
+  img:nth-child(2) {
+    animation-delay: 2s;
+  }
+  img:nth-child(3) {
+    animation-delay: 4s;
+  }
+  img:nth-child(4) {
+    animation-delay: 6s;
+  }
+  img:nth-child(5) {
+    animation-delay: 8s;
+  }
+#recomendaciones{
+    position: relative;
+    text-align: center;
+    color: #616161;
+    font-size: 1.25em;
+    font-weight: 700;
+    letter-spacing: 0.11em;
+    top: 50px;
+}
+.recoPersonales{
+    font-family: 'Noto Sans', sans-serif;
+    margin-top: 70px;
+    margin-left: 400px;
+    position: relative;
+    color: #888;
+    font-size: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
+.post-container {
+    margin: 20px 20px 0px 0;
+    overflow: auto
+}
+
+.post-thumb {
+    float: left      
+}
+
+.post-thumb img {
+        display: block  
+ }
+.post-content {
+    margin-right: 210px;
+    padding-top: 40px;
+    text-indent:10px;
+}
+
+.post-title {
+    font-weight: bold;
+    font-size: 200%
+}
+#background {
+    background-color: #888;
+}
+#dondeEstamos{
+    position: relative;
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 0.11em;
+    top: 50px;
+    left: 150px;
+}
+main section iframe{
+    width: 800px;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+#contacto{
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    color: white;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 0.11em;
+    top: -490px;
+    left: 1000px;
+}
+#infoContacto{
+    font-family: 'Noto Sans', sans-serif;
+    font-style: italic;
+    position: relative;
+    color: white;
+    text-transform: lowercase;
+    top: 50px;
+}
+.contenedor2{
+    font-family: 'Poiret One', cursive;
+    margin-top: 10px;
+    width: 100%;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.escribinos{
+    font-size: 20px;
+    width: 40%;
+    background-color: rgb(46, 45, 45);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid 50px rgb(46, 45, 45);
+    border-radius: 7px;
+    transition: all ease 700ms;
+}
+.escribinos:hover{
+    width: 45%;
+    box-shadow: 0px 1px 50px rgba(0, 0, 0, 4);
+}
+.escribinos .a h2{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.escribinos .a h3{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.escribinos .a{
+    border-bottom: solid 1px white;
+    width: 90%;
+    margin-bottom: 40px;
+}
+.escribinos .b{
+    text-align: right;
+    color: white;
+}
+.escrbinos form input{
+    height: 23px;
+    font-size: 23px;
+    text-align: right;
+    border: 0;
+    box-shadow: 0px;
+    background-color: rgb(46, 45, 45);
+    margin-left: 30px;
+    border-bottom: solid white 1px;
+    transition: all ease 400ms;
+}
+.escribinos form .in1:focus{
+    background: white;
+    color: black;
+    border-radius: 5px;
+    height: 30px;
+    border: 0;
+}
+.escribinos form{
+    font-size: 20px;
+}
+.escribinos form .boton{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 80px;
+    height: 30px;
+    margin-top: 10px;
+    justify-content: center;
+    font-size: 20px;
+    font-family: Oswald;
+    color: white;
+    text-align: center;
+    width: 50%;
+    border-bottom: solid 1px white;
+    transition: all ease 600ms;
+}
+.escribinos form .boton{
+    background: white;
+    border-radius: 5px;
+    color: rgb(46, 45, 45);
+}
+.inp{
+    width: 170px;
+}
+.in1{
+    width: 300px;
+}
+    footer{
+        position:fixed;
+        left:0px;
+        bottom:0px;
+}
